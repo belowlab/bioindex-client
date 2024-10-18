@@ -6,14 +6,6 @@ import json
 import requests
 import sys
 
-
-# import csv
-# with open('eggs.csv', 'w', newline='') as csvfile:
-#     spamwriter = csv.writer(csvfile, delimiter=' ',
-#                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-#     spamwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
-#     spamwriter.writerow(['Spam', 'Lovely Spam', 'Wonderful Spam'])
-
 if len(sys.argv) != 2:
     print(f"Usage: {sys.argv[0]} genes_to_get.txt")
     print("Reads a list of genes from a file, one gene per line, and fetches data about them")
